@@ -3,4 +3,6 @@
 
 - Man pages:
   * [grep](https://man7.org/linux/man-pages/man1/grep.1.html)
-
+  * [awk](https://www.man7.org/linux/man-pages/man1/awk.1p.html)
+  
+ 
