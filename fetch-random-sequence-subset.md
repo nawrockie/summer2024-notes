@@ -5,7 +5,7 @@ Starting with a sequence file `<seqfile1>`, follow these steps to create a new s
 #### Step 1. Get a list of the sequences
 
 ```
-> esl-seqstat -a <seqfile1> | grep ^\# | awk '{ print $2 }' > <listfile1>
+> esl-seqstat -a <seqfile1> | grep ^\= | awk '{ print $2 }' > <listfile1>
 ```
 
 #### Step 2. Select a random subset of the sequence names
