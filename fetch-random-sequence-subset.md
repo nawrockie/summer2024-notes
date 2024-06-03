@@ -11,7 +11,7 @@ Starting with a sequence file `<seqfile1>`, follow these steps to create a new s
 #### Step 2. Select a random subset of the sequence names
 
 ```
-> esl-sfetch 100 <listfile1> > <listfile2>
+> esl-selectn 100 <listfile1> > <listfile2>
 ```
 
 #### Step 3. Index the original file and fetch the 100 sequences
